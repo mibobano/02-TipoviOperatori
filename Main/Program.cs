@@ -9,14 +9,15 @@ namespace CSharp.TipoviOperatori
             Console.WriteLine("Krećem iz Program.Main(string[] args)");
         }
 
-        static void Main()
+       /* static void Main()
         {
             Console.WriteLine("Krećem iz Program.Main()");
-        }
+        }*/
 
         public static void main()
         {
             Console.WriteLine("main()");
+            Console.ReadKey();
         }
     }
 }
