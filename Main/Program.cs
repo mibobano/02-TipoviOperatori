@@ -11,7 +11,7 @@ namespace CSharp.TipoviOperatori
 
        /* static void Main()
         {
-            Console.WriteLine("Krećem iz Program.Main()");
+            Console.WriteLine("Kjhrećem iz Program.Main()");
         }*/
 
         public static void main()
