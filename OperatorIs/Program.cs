@@ -13,6 +13,12 @@ namespace CSharp.TipoviOperatori
             Osoba janko = new Student();
             
             Osoba osoba = new Osoba();
+            if (janko is Osoba)
+            {
+                Console.WriteLine("je");
+            }
+            else
+                Console.WriteLine("nije");
 
 
             Console.ReadKey();
