@@ -16,7 +16,7 @@ namespace CSharp.TipoviOperatori
             Console.WriteLine(broj2);
 
             double običniDuplic = Math.PI;
-            //Nullable<T> broj3;
+            //Nullable<T>  broj3;
 
 
             Console.ReadKey();
