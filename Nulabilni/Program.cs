@@ -11,8 +11,12 @@ namespace CSharp.TipoviOperatori
         {
             double? nulabilniDuplić = Math.PI;
             Console.WriteLine(nulabilniDuplić);
+            //double broj = nulabilniDuplić;
+            double broj2 = 2;
+            Console.WriteLine(broj2);
 
             double običniDuplic = Math.PI;
+            //Nullable<T> broj3;
 
 
             Console.ReadKey();
