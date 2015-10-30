@@ -17,6 +17,7 @@ namespace CSharp.TipoviOperatori
 
         decimal a;
         double b;
+
     }
 
     class MojaKlasa
@@ -35,14 +36,23 @@ namespace CSharp.TipoviOperatori
         static void Main(string[] args)
         {
             // ispisati duljinu tipa decimal
+            int x = sizeof(decimal);
+            Console.WriteLine(x);
 
             // ispisati duljinu tipa double
+            int y = sizeof(double);
+            Console.WriteLine(x);
 
             // ispisati duljinu tipa MojaStruktura
+            int z = y + x;
+            Console.WriteLine(z);
 
             // ispisati duljinu tipa MojaSloženaStruktura
+           // b = System.Runtime.InteropServices.Marshal.SizeOf(MojaSloženaStruktura);
+            Console.WriteLine(b);
 
             // ispisati duljinu tipa MojaKlasa
+
 
             Console.ReadKey();
         }
