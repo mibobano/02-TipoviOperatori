@@ -63,3 +63,4 @@ namespace CSharp.TipoviOperatori
         }
     }
 }
+//ne izbacuje iznimke
